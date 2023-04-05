@@ -4,7 +4,7 @@ const port = 3000
 
 function inputFunc(x) {
     // for my function, it's arcsin(sqrt(x))
-    return Math.sin(Math.sqrt(x));
+    return Math.asin(Math.sqrt(x));
 }
 
 async function riemannSum(totalPartParam, prevSumParam) {
